@@ -6,16 +6,19 @@
 
 
 function PrintStars(num1){
-
+string=[]
 for (let index = 0; index < num1; index++) {
-    console.log("*")
+    string[index]="*"
+    
     
 }
 
-
+return string
 }
 
-let answer= PrintStars(5)
+let num1=+prompt("enter a number")
+let answer=[]
+answer= PrintStars(num1)
 
 console.log (answer)
 
