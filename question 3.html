@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+// בנה פונקציה המקבלת מספר ומחזירה את העצרת שלו
+
+function azeret(num1){
+    let total=num1
+    
+    // debugger
+     for (let index = num1; index >1; index--) {
+        // debugger  
+        total=total*(index-1)
+       
+        
+     }
+
+      return(total)
+
+    }
+
+
+    
+
+
+let num1=+prompt("enter a number")
+
+let answer= azeret(num1)
+document.write("the answer is ", answer)
+
+
+
+
+
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- <form>
+  <label for=num1>"first number:" </label> 
+  <input type="number" id="num1" num>
+</form> -->
+    
+
+<!-- 
+    <h2>the result is</h2> -->
+
+    
+</body>
+</html>

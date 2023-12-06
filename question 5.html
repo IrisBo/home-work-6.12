@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+// בנה פונקציה המקבלת הודעה ומספר: הפונקציה תדפיס את ההודעה למשתמש, תקלוט כמות
+// מספרים לפי המספר שקיבלה ותחזיר את סכום המספרים.
+
+function MsgNum(message, num1){
+console.log(message)
+    let sum=0
+     for (let index = 0; index < num1; index++) {
+        let number=+prompt("enter number")
+        sum+=number
+        
+     }
+    return sum
+
+    } 
+
+const answer= MsgNum("hey buddy lets find the sum", 8)
+
+document.write ("the answer is ", answer)
+
+
+
+
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

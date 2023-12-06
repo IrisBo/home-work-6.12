@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+// בנה פונקציה המקבלת 3 מספרים ומחזירה את הגדול מביניהם. בתוך הפונקציה יש להשתמש
+// בפונקציה מהתרגיל הראשון על מנת למצוא את המספר הגדול מבין שלושת מספרים. )אין לשנות
+// את הפונקציה מהתרגיל הראשון, נשתמש באותה פונקציה בדיוק.(
+
+function thebiggernumber(num1, num2){
+          
+          if (num1>num2){
+              return num1}
+           
+           
+          else {
+              if (num1<num2){
+  
+                  return num2
+             
+              }
+              else {
+                return num1
+                  document.write("numbers are equal ") }
+              }
+  
+          }
+          
+
+function ThebiggestNum (num1 ,num2 , num3){
+
+    const temp=thebiggernumber(num1,num2)
+    const temp2=thebiggernumber(num3,temp)
+
+    return temp2
+
+}
+
+const answer=ThebiggestNum(1,2,7)
+
+document.write("the biggest number ", answer)
+
+    
+
+
+
+
+
+
+
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

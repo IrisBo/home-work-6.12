@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+// בנה פונקציה המקבלת 2 מספרים ומחזירה את התוצאה של הראשון בחזקת השני
+
+
+function theMultiplier(num1, num2){
+    let total=1
+     for (let index = 1; index <= num2; index++) {
+          
+        total= total*num1
+        
+     }
+
+      return(total)
+
+    }
+
+
+    
+
+
+let num1=+prompt("enter first number")
+let num2=+prompt("enter second number")
+let answer= theMultiplier(num1,num2)
+document.write("the answer is ", answer)
+
+
+
+
+
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+</body>
+</html>
