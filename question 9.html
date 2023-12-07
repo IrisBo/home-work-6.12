@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>
+// כתוב פונקציה המקבלת מספר ומציגה שורת כוכביות באורך המספר בשורות יורדות כמו פירמידה.
+
+// כבר מצאתי בשאלה הקודמת פוקציה שמדפיסה לי כוכביות בשורה באורך מספר
+
+
+function PrintStars(num1){
+string=[]
+for (let index = 0; index < num1; index++) {
+    string[index]="*"
+    
+    
+}
+
+return string
+}
+
+// אם אריץ אותה מ פעמים ואוריד אחד כל פעם היא תדפיס לי שורה קצרה יותר ותיווצר פירמידה
+
+const number=5
+let answer=[]
+
+for (let index = number; index >0; index--) {
+
+    answer=PrintStars(index)
+    document.write(answer)
+    
+    
+    
+}
+
+// לא מצליחה להוריד שורה
+// לא מצליחה להכניס את כל הדבר הזה לפונקציה שתריד את זה מ פעמים
+
+
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+
+
